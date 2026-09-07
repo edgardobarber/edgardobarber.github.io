@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Edgardo's Barber Shop - Cortes, fades y estilos en Metapán, El Salvador.">
+  <title>EDGARDO'S BARBER SHOP | Metapán</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header" id="inicio">
+    <a class="logo" href="#inicio">
+      <span>EDGARDO'S</span>
+      <small>BARBER SHOP</small>
+    </a>
+
+    <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#barberia">La barbería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">METAPÁN • EL SALVADOR</p>
+        <h1>Tu estilo.<br><span>Nuestra precisión.</span></h1>
+        <p class="hero-text">
+          Cortes modernos, fades y detalles hechos con dedicación.
+          Ven a conocer el nuevo concepto de EDGARDO'S BARBER SHOP.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contacto">AGENDAR CITA</a>
+          <a class="btn btn-outline" href="#galeria">VER CORTES</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div>
+        <p class="eyebrow">EDGARDO'S BARBER SHOP</p>
+        <h2>Más que un corte,<br><span>una experiencia.</span></h2>
+      </div>
+      <p>
+        Cuidamos cada detalle para que salgas con un corte limpio,
+        moderno y hecho a tu gusto. Elige tu estilo y déjanos hacer el resto.
+      </p>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="section-title">
+        <p class="eyebrow">LO QUE HACEMOS</p>
+        <h2>Servicios</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span class="number">01</span>
+          <div class="icon">✂</div>
+          <h3>Corte clásico</h3>
+          <p>Un corte limpio y personalizado, adaptado a tu estilo.</p>
+          <strong>$4.00</strong>
+        </article>
+
+        <article class="card featured">
+          <span class="number">02</span>
+          <div class="icon">⚡</div>
+          <h3>Fade / Degradado</h3>
+          <p>Degradados precisos con transiciones suaves y definición.</p>
+          <strong>$4.00</strong>
+        </article>
+
+        <article class="card">
+          <span class="number">03</span>
+          <div class="icon">✦</div>
+          <h3>Taper</h3>
+          <p>Un acabado moderno y natural para resaltar tu estilo.</p>
+          <strong>$4.00</strong>
+        </article>
+      </div>
+
+      <p class="price-note">* Los precios mostrados son editables en el archivo index.html.</p>
+    </section>
+
+    <section class="gallery-section" id="galeria">
+      <div class="section gallery-heading">
+        <p class="eyebrow">TRABAJOS</p>
+        <h2>Nuestra galería</h2>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item large">
+          <img src="images/corte-1.png" alt="Corte realizado en Edgardo's Barber Shop">
+          <figcaption>Fade + diseño</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="images/barberia.png" alt="Exterior de Edgardo's Barber Shop en Metapán">
+          <figcaption>Conoce nuestra barbería</figcaption>
+        </figure>
+        <div class="gallery-placeholder">
+          <span>+</span>
+          <p>Agrega más fotos de tus cortes</p>
+          <small>Guárdalas dentro de la carpeta <b>images</b>.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section barberia" id="barberia">
+      <div class="barberia-image">
+        <img src="images/barberia.png" alt="Edgardo's Barber Shop">
+      </div>
+      <div class="barberia-copy">
+        <p class="eyebrow">SOBRE NOSOTROS</p>
+        <h2>Un nuevo concepto<br><span>de barbería.</span></h2>
+        <p>
+          EDGARDO'S BARBER SHOP nace con la idea de ofrecer un espacio
+          donde un buen corte se combine con atención, estilo y personalidad.
+        </p>
+        <div class="facts">
+          <div><b>01</b><span>Atención personalizada</span></div>
+          <div><b>02</b><span>Estilos modernos</span></div>
+          <div><b>03</b><span>Metapán, El Salvador</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contacto">
+      <div>
+        <p class="eyebrow">¿LISTO PARA TU PRÓXIMO CORTE?</p>
+        <h2>Reserva tu cita.</h2>
+        <p>Escríbenos para consultar disponibilidad y horarios.</p>
+      </div>
+
+      <div class="contact-buttons">
+        <!-- CAMBIA EL NÚMERO EN EL href POR TU WHATSAPP -->
+        <a class="btn btn-primary" href="https://wa.me/50300000000?text=Hola%20Edgardo%27s%20Barber%20Shop%2C%20quiero%20agendar%20una%20cita." target="_blank" rel="noopener">
+          WHATSAPP
+        </a>
+
+        <!-- CAMBIA @TU_USUARIO POR TU INSTAGRAM -->
+        <a class="btn btn-outline" href="https://instagram.com/TU_USUARIO" target="_blank" rel="noopener">
+          INSTAGRAM
+        </a>
+      </div>
+    </section>
+
+    <section class="location">
+      <div>
+        <p class="eyebrow">VISÍTANOS</p>
+        <h2>Metapán,<br>El Salvador.</h2>
+        <p>Agrega aquí tu dirección exacta y horario de atención.</p>
+      </div>
+      <div class="location-box">
+        <span>📍</span>
+        <div>
+          <strong>EDGARDO'S BARBER SHOP</strong>
+          <p>Metapán, Santa Ana Norte</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">EDGARDO'S <span>BARBER SHOP</span></div>
+    <p>© <span id="year"></span> EDGARDO'S BARBER SHOP. Todos los derechos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/50300000000?text=Hola%20Edgardo%27s%20Barber%20Shop%2C%20quiero%20agendar%20una%20cita." target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
